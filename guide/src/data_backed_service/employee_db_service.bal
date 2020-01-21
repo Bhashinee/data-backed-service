@@ -52,7 +52,7 @@ import ballerina/lang.'int as ints;
     username:"<USERNAME>",
     password:"<PASSWORD>",
     push:false,
-    imagePullPolicy:"Always"
+    imagePullPolicy:"IfNotPresent"
 }
 
 listener http:Listener httpListener = new(9090);
